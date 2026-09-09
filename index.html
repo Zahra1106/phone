@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ReCircuit — Certified Rebuilt Phones, Faisalabad</title>
+  <meta name="description" content="Every phone stripped, repaired and graded before it reaches you. Certified rebuilt phones and same-day repairs in Faisalabad." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 26 26'%3E%3Crect x='1' y='1' width='24' height='24' rx='5' fill='%2310161c' stroke='%23ff9a3c' stroke-width='1.6'/%3E%3Ccircle cx='13' cy='13' r='3.4' fill='none' stroke='%23ff9a3c' stroke-width='1.6'/%3E%3Cpath d='M13 1V6.5M13 19.5V25M1 13H6.5M19.5 13H25' stroke='%23ff9a3c' stroke-width='1.6'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+
+  <div class="grain"></div>
+
+  <header class="site-header" id="header">
+    <div class="wrap header-inner">
+      <a href="#top" class="logo">
+        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="1" y="1" width="24" height="24" rx="5" stroke="currentColor" stroke-width="1.6"/>
+          <circle cx="13" cy="13" r="3.4" stroke="currentColor" stroke-width="1.6"/>
+          <path d="M13 1V6.5M13 19.5V25M1 13H6.5M19.5 13H25" stroke="currentColor" stroke-width="1.6"/>
+        </svg>
+        <span>ReCircuit</span>
+      </a>
+
+      <nav class="main-nav" id="mainNav">
+        <a href="#shop">Shop</a>
+        <a href="#process">Repair Process</a>
+        <a href="#sell">Sell Your Phone</a>
+        <a href="#warranty">Warranty</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#shop" class="btn btn-ghost">Book a Repair</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- 3D SCROLL INTRO -->
+    <section class="phone-intro" id="phoneIntro">
+      <div class="phone-intro-pin">
+        <p class="intro-caption" id="introCaption">Every unit, spun around and checked on every side.</p>
+
+        <div class="intro-video-frame" id="introVideoFrame">
+          <video
+            id="introVideo"
+            src="/video/phone-reveal.mp4"
+            muted
+            playsinline
+            preload="auto"
+          ></video>
+        </div>
+      </div>
+    </section>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <div class="hero-copy">
+          <p class="tag">Faisalabad · Since 2021</p>
+          <h1>Fixed like it<br>never broke.</h1>
+          <p class="hero-sub">
+            We strip every phone down to the board, replace what's failing, and run a
+            27-point check before it's allowed back on a shelf. That goes for the ones
+            we sell and the ones you bring in.
+          </p>
+          <div class="hero-actions">
+            <a href="#shop" class="btn btn-primary">Shop certified phones</a>
+            <a href="#process" class="btn btn-line">Get a repair quote</a>
+          </div>
+          <dl class="hero-stats">
+            <div><dt>4,200+</dt><dd>devices rebuilt</dd></div>
+            <div><dt>180 days</dt><dd>warranty, every unit</dd></div>
+            <div><dt>35 min</dt><dd>avg. screen swap</dd></div>
+          </dl>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PROCESS / PROMO SPLIT -->
+    <section class="process" id="process">
+      <div class="wrap process-inner">
+        <div class="process-art" aria-hidden="true">
+  <video src="/video/phone.mp4" autoplay muted loop playsinline></video>
+</div>
+
+        <div class="process-copy">
+          <p class="tag">How every unit is graded</p>
+          <h2>Nothing ships until it earns its grade.</h2>
+          <ol class="process-steps">
+            <li>
+              <span class="step-no">01</span>
+              <div>
+                <h3>Full teardown</h3>
+                <p>Board, battery, cameras and frame are inspected apart from each other — not just powered on and eyeballed.</p>
+              </div>
+            </li>
+            <li>
+              <span class="step-no">02</span>
+              <div>
+                <h3>Parts replaced, not patched</h3>
+                <p>Failing components are swapped with grade-matched originals. We log the part, not just the fix.</p>
+              </div>
+            </li>
+            <li>
+              <span class="step-no">03</span>
+              <div>
+                <h3>27-point verification</h3>
+                <p>Battery health, mic, sensors, charging and screen response are all tested before a grade is assigned.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- SHOP / CHARACTERISTICS GRID -->
+    <section class="shop" id="shop">
+      <div class="wrap">
+        <div class="shop-head">
+          <div>
+            <p class="tag">In stock this week</p>
+            <h2>Every phone, fully inspected.</h2>
+          </div>
+          <div class="grade-filter" id="gradeFilter">
+            <button class="chip is-active" data-grade="all">All</button>
+            <button class="chip" data-grade="A">Grade A</button>
+            <button class="chip" data-grade="B">Grade B</button>
+            <button class="chip" data-grade="C">Grade C</button>
+          </div>
+        </div>
+
+        <div class="product-grid" id="productGrid"><!-- injected by main.js --></div>
+      </div>
+    </section>
+
+    <!-- SELL YOUR PHONE -->
+    <section class="sell" id="sell">
+      <div class="wrap sell-inner">
+        <div>
+          <p class="tag">Trade-in</p>
+          <h2>Bring in what's broken. Leave with a price.</h2>
+          <p class="hero-sub">Cracked, dead battery, water damage — we quote it in front of you, same day, no drop-off wait.</p>
+        </div>
+        <a href="https://wa.me/923000000000?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20my%20phone" class="btn btn-primary" target="_blank" rel="noopener">Get a same-day quote</a>
+      </div>
+    </section>
+
+    <!-- WARRANTY / TRUST STRIP -->
+    <section class="trust" id="warranty">
+      <div class="wrap trust-inner">
+        <div class="trust-item">
+          <h3>180-day</h3>
+          <p>parts &amp; labour warranty on every repair and every phone we sell.</p>
+        </div>
+        <div class="trust-item">
+          <h3>Grade-backed</h3>
+          <p>battery health and cosmetic grade printed on the box, not just promised at the counter.</p>
+        </div>
+        <div class="trust-item">
+          <h3>Genuine parts</h3>
+          <p>logged by serial number — ask to see the part we pulled out of your phone.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="wrap footer-inner">
+      <div class="footer-brand">
+        <a href="#top" class="logo">
+          <svg width="24" height="24" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="1" y="1" width="24" height="24" rx="5" stroke="currentColor" stroke-width="1.6"/>
+            <circle cx="13" cy="13" r="3.4" stroke="currentColor" stroke-width="1.6"/>
+            <path d="M13 1V6.5M13 19.5V25M1 13H6.5M19.5 13H25" stroke="currentColor" stroke-width="1.6"/>
+          </svg>
+          <span>ReCircuit</span>
+        </a>
+        <p>Rebuilt phones and honest repairs, done in front of you.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Visit</h4>
+        <p>Susan Road, Faisalabad<br>Open daily · 11am – 9pm</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Talk to us</h4>
+        <p><a href="https://wa.me/923000000000" target="_blank" rel="noopener">WhatsApp · 0300 0000000</a></p>
+        <p><a href="tel:+923000000000">Call · 0300 0000000</a></p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Follow</h4>
+        <p><a href="#" target="_blank" rel="noopener">Instagram</a></p>
+        <p><a href="#" target="_blank" rel="noopener">Facebook</a></p>
+      </div>
+    </div>
+    <div class="wrap footer-bottom">
+      <p>© 2026 ReCircuit. All devices graded in-house.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
