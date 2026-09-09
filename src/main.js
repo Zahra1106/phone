@@ -8,7 +8,7 @@ const products = [
     price: "Rs 68,500",
     was: "Rs 89,000",
     image: "/images/iphone12.jpeg", 
-    image: "public/video/iphone12.jpeg", 
+    image: "/video/iphone12.jpeg", 
   },
   {
     name: "Samsung S21 · 128GB",
@@ -17,7 +17,7 @@ const products = [
     specs: { RAM: "8GB", Storage: "128GB", Screen: "No marks", Camera: "64MP triple" },
     price: "Rs 61,000",
     was: "Rs 78,000",
-    image: "public/video/samsungs21.jpeg", 
+    image: "/video/samsungs21.jpeg", 
   },
   {
     name: "iPhone XR · 64GB",
@@ -26,7 +26,7 @@ const products = [
     specs: { RAM: "3GB", Storage: "64GB", Screen: "Light wear", Camera: "12MP" },
     price: "Rs 39,900",
     was: "Rs 52,000",
-    image: "public/video/iphonexr.jpeg", 
+    image: "/video/iphonexr.jpeg", 
   },
   {
     name: "Redmi Note 11 · 128GB",
@@ -35,7 +35,7 @@ const products = [
     specs: { RAM: "6GB", Storage: "128GB", Screen: "Light wear", Camera: "50MP quad" },
     price: "Rs 26,500",
     was: "Rs 34,000",
-    image: "public/video/redmi.jpeg", 
+    image: "/video/redmi.jpeg", 
   },
   {
     name: "Samsung A32 · 64GB",
@@ -44,7 +44,7 @@ const products = [
     specs: { RAM: "4GB", Storage: "64GB", Screen: "Visible marks", Camera: "48MP quad" },
     price: "Rs 19,900",
     was: "Rs 27,000",
-    image: "public/video/samsung.jpeg", 
+    image: "/video/samsung.jpeg", 
   },
   {
     name: "iPhone 11 · 64GB",
@@ -53,7 +53,7 @@ const products = [
     specs: { RAM: "4GB", Storage: "64GB", Screen: "Visible marks", Camera: "12MP dual" },
     price: "Rs 44,000",
     was: "Rs 58,000",
-    image: "public/video/iphone11.jpeg", 
+    image: "/video/iphone11.jpeg", 
   },
 ];
 
